@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h3>欢迎访问百度</h3>
+
+<iframe id="myFrame" src="https://www.baidu.com" width=360px height=420px></iframe>
+
+<p>Welcome to this site</p>
+
+<button onclick="myFunction()">exit</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myFrame").src;
+  document.getElementById("demo").innerHTML = x;
+}
+</script>
+
+</body>
+</html>
+

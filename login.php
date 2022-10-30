@@ -2,8 +2,8 @@
 <html>
 <body>
 <form action="welcome.php" method="post">
-Name: <input type="text" name="fname">
-Age:  <input type="text" name="age">
+Name: <input type="text" name="fname" placeholder="请输入用户名" requierd>
+Age : <input type="text" name="age" placeholder="年龄" required>
 <input type="submit">
 </form>
 </body>
